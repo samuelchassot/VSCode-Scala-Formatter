@@ -4,7 +4,7 @@
 		module="vs-scala-formatter_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181219161500"
+		publication="20181223194625"
 	>
 		<description>
 		vs-scala-formatter
@@ -32,7 +32,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="com.geirsson" name="scalafmt-core_2.12" rev="1.6.0-RC4+156-339533d8+20181217-1800-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.geirsson" name="scalafmt-core_2.12" rev="SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="org.scalameta" name="scalameta-experimental_2.12" rev="SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.eclipse.lsp4j" name="org.eclipse.lsp4j" rev="0.6.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
