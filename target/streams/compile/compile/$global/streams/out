@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/src/main/scala/ch/chassot/vsscalafmt/ScalaLanguageServer.scala:90:5: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: java.util.List[? <: org.eclipse.lsp4j.TextEdit][0m
+[0m[[0m[31merror[0m] [0m[0m    })[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

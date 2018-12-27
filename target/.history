@@ -80,3 +80,16 @@ run
 compile
 coursier launch $artifact -M dotty.tools.languageserver.Main -- -stdio
 configureIDE
+run 
+compile
+run
+run -client_command
+run
+compile
+run
+compile
+run
+reload
+compile
+run
+compile
