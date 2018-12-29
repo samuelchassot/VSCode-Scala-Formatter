@@ -1,4 +1,7 @@
 *.class
 *.log
 .idea/*
-idea
+.idea
+*.vsix
+**/target/*
+.vscodeignore

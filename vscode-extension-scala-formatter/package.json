@@ -1,0 +1,35 @@
+{
+	"name": "scala-formatter",
+	"displayName": "Scala code formatter",
+	"description": "A language server that formats Scala source code using Scalafmt",
+	"author": "Samuel Chassot",
+	"publisher": "samuelchassot",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"categories": [],
+	"keywords": [
+		"multi-root ready"
+	],
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"activationEvents": [
+		"onLanguage:scala"
+	],
+	"main": "./client/out/extension",
+	"scripts": {
+
+		"compile": "tsc -b",
+		"watch": "tsc -b -w",
+		"postinstall": "cd client && npm install && cd .."
+	},
+	"devDependencies": {
+		"@types/mocha": "^5.2.0",
+		"@types/node": "^8.0.0",
+		"tslint": "^5.11.0",
+		"typescript": "^3.1.3"
+	}
+}
