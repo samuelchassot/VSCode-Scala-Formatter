@@ -1,16 +1,7 @@
 package ch.chassot.vsscalafmt
 
 
-import java.util.function.Consumer
-
-import java.io.{ File => JFile, InputStream, OutputStream, PrintWriter }
-import java.net._
-import java.nio.channels._
-
-import org.eclipse.lsp4j._
-import org.eclipse.lsp4j.services._
 import org.eclipse.lsp4j.launch._
-import org.eclipse.lsp4j.jsonrpc.Launcher
 
 /** Run the Dotty Language Server.
   *
@@ -29,26 +20,13 @@ object Main {
     val server = new ScalaLanguageServer
     val serverIn = System.in
     val serverOut = System.out
-    System.setOut(System.err)
-    val launcher = LSPLauncher.createServerLauncher(server, serverIn, serverOut)
-
-    val client = launcher.getRemoteProxy()
-    (server.asInstanceOf[LanguageClientAware]).connect(client)
-    launcher.startListening()
+//    println("hi from Main !")
+    scala.Console.withOut(scala.Console.err) {
+      val launcher = LSPLauncher.createServerLauncher(server, serverIn, serverOut)
+      launcher.startListening()
+      println("Server started !")
+    }
 
   }
 
-
-
-  def startServer(in: InputStream, out: OutputStream) = {
-    val server = new ScalaLanguageServer
-
-
-    println("Starting server")
-    val launcher = LSPLauncher.createServerLauncher(server, in, out)
-
-//    val client = launcher.getRemoteProxy()
-//    (server.asInstanceOf[LanguageClientAware]).connect(client)
-    launcher.startListening()
-  }
 }

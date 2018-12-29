@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: trees
+Implementation-Version: SNAPSHOT
+Specification-Vendor: org.scalameta
+Specification-Title: trees
+Implementation-Vendor-Id: org.scalameta
+Specification-Version: SNAPSHOT
+Implementation-URL: https://github.com/scalameta/sbt-scalafmt
+Implementation-Vendor: org.scalameta
+

@@ -1,0 +1,186 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: z5LYwkUsz9Dhxpv+BZolcD3o+4ZLE
+ 1dgg4HtOxgAQf0=
+SHA-256-Digest-Manifest: YowFqKXC4wndIbcEMe94RKH6dqpEiz8tZ0cJp52WFho=
+Created-By: 1.8.0_192 (Oracle Corporation)
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCode.class
+SHA-256-Digest: 1X6IFGGMuFPLBkEACbh5IgYSAa07kN+NqfyXMlcJ2Xw=
+
+Name: org/eclipse/xtend/lib/annotations/ToStringProcessor$Util.class
+SHA-256-Digest: ofBvlLli0tTf3K9brljfjSBxSHggCTyNqTBCMmey1mE=
+
+Name: org/eclipse/xtend/lib/annotations/Accessors.class
+SHA-256-Digest: iJ3dsFUtQQy5KsNeAknVTsYE9g0Wmb9wENmeOi9g5kg=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 5.class
+SHA-256-Digest: IzI36aIg5i6chDjNgv9voIniQvvOG45+PaWsEmMMyiM=
+
+Name: org/eclipse/xtend/lib/annotations/ToStringProcessor$Util$2.class
+SHA-256-Digest: 0VsPzlMPGGWAJyNd/llRs96V88372TTze59+GMI96PM=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 8.class
+SHA-256-Digest: 4fOw8If2tV5S/FwSifFDLusMcoDhVdfPUZl6T5sEFDo=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$8
+ .class
+SHA-256-Digest: mhmY9FeAUBCESn4VA7MkV1kt5y+rRLURsn/9lhWHgwQ=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 2.class
+SHA-256-Digest: 7EK2Q50depUJXFFGV0pZkWNtGr/kWx/bePgwszY/qB4=
+
+Name: org/eclipse/xtend/lib/annotations/Delegate.class
+SHA-256-Digest: jZFT33igB0g9chg7CqGgsjCz3Y73Y64kRp/mhgaWxIk=
+
+Name: org/eclipse/xtend/lib/annotations/DelegateProcessor$Util$1.class
+SHA-256-Digest: 1OQJK7zkVPmZ6vxUqILD4DiGRLd6RIE+s7JkaRcE06I=
+
+Name: org/eclipse/xtend/lib/annotations/DataProcessor.class
+SHA-256-Digest: K+1EeEODy+bz8gWKfPusTah28csXWYdvgi5HwZdnOHc=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorsProcessor$Util.class
+SHA-256-Digest: 8VqsjUelHWvBMQ8327fiFCJL6TZ2PeHRG7ktw6/D/9M=
+
+Name: org/eclipse/xtend/lib/DataProcessor.class
+SHA-256-Digest: TJn7GhYSZDZJgzfNl7i37RaS/98NFaJNaAqRSYjuuB8=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorsProcessor$1.class
+SHA-256-Digest: sTfhOXCbAtM7d9KxbR+axsAgseLcLdHyP1ZxVsYVsU4=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$7
+ .class
+SHA-256-Digest: eYDC7EbPsdmDK0zUf+hEk2dJCMFlBReD0bii0JAmsF8=
+
+Name: org/eclipse/xtend/lib/annotations/DataProcessor$Util.class
+SHA-256-Digest: iuEL4bCc13fWGm+dD8nY/g/7meNFhp49bkkeKolgT2g=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorsProcessor.class
+SHA-256-Digest: O5TofriBAcl+R2+bytwEMfsAxNYc3tEJMzEphqUBf4k=
+
+Name: org/eclipse/xtend/lib/annotations/DelegateProcessor.class
+SHA-256-Digest: QXG89uw7We5NCIAPw39uM02LDF0zE+fEwsxESOurAlk=
+
+Name: org/eclipse/xtend/lib/annotations/FinalFieldsConstructorProcesso
+ r$Util$1.class
+SHA-256-Digest: DxfKz0tJ5SGFR9o7k0W8I401OQzxS1D9poEXKQth4ns=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ .class
+SHA-256-Digest: 6p6YCZ91klkxLUVbSqOXvNiZyEQX90ISSNJ2HCDIN4I=
+
+Name: org/eclipse/xtend/lib/annotations/FinalFieldsConstructorProcesso
+ r$Util.class
+SHA-256-Digest: OCkCupetdwEICPRlacGhlXkf6xoFTEWXZJfPAuDT8xY=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 6.class
+SHA-256-Digest: dKf3+OpXAimPEO4jA0Eg/UJYGuKJ650wF055f9rE8To=
+
+Name: org/eclipse/xtend/lib/annotations/FinalFieldsConstructor.class
+SHA-256-Digest: oSMpSIIzrKDhOTJfp5+8dZ+YUm+mfCSWBLzpFYXrTEI=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$4
+ .class
+SHA-256-Digest: VQIEG2QSICTxW8MPh446vVISHKWEwjt3Bv94a2II2RA=
+
+Name: org/eclipse/xtend/lib/annotations/Data.class
+SHA-256-Digest: PgYv85K//ha6+yPgpJ5gngofo+G5a4cSMDmFAkntRCI=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util.c
+ lass
+SHA-256-Digest: YvYquJm5AaW1ibqhIU11+9eH3T/LxUek5dQOgTW/eNM=
+
+Name: org/eclipse/xtend/lib/Data.class
+SHA-256-Digest: Vn99bFp7lFKMEmxitF8QfXnBgFWuDOF4UYPxyLShPAY=
+
+Name: org/eclipse/xtend/lib/DataProcessor$Util.class
+SHA-256-Digest: HPQrINvuqwQ8AO4Q0z9oWyXhbKHfv8SYfSf4hdG1ZZg=
+
+Name: org/eclipse/xtend/lib/PropertyProcessor.class
+SHA-256-Digest: ktEWAZEdp8JOVV1pTnO24xTsAOABSemmDroAyuGrkLQ=
+
+Name: org/eclipse/xtend/lib/annotations/ToString.class
+SHA-256-Digest: L8/vCIXipJKzT2NReEWfLaiakpGHWuaacOOqslwl5nE=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$6
+ .class
+SHA-256-Digest: oaTWdopldUyNLSYIYIIrJ7mhj8wYytMqM5ZTHfA/2AA=
+
+Name: org/eclipse/xtend/lib/annotations/FinalFieldsConstructorProcesso
+ r.class
+SHA-256-Digest: JVc4UBNZ1w4TLbd73aE2gI20jscGlUxXjcWZTQcH2Sw=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 0.class
+SHA-256-Digest: 0zj91MwWcIGSdeXYF5uHPfw57FMRAYFBGSDi7beNpSA=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorsProcessor$Util$1.clas
+ s
+SHA-256-Digest: nfbRbWsTW74y+og0w3kQdE72T+WPUSazi8FOVkGRWvI=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 3.class
+SHA-256-Digest: i6fNAqrdtV88Perk9E4pCTVwJuPH2srqvT6a82r9lSw=
+
+Name: org/eclipse/xtend/lib/annotations/ToStringProcessor.class
+SHA-256-Digest: 9Xndg71pUXT7Y2EO4RxAXe+1f5UwWpfMt5i6D7YYuog=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$2
+ .class
+SHA-256-Digest: Crmw1BwSw16U53u+K16lYMzQX760Yc3/Zheq1rCStQM=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 7.class
+SHA-256-Digest: /GetSGv/W+IJsXRVccpoRSO9LHf8ws+Snwi+tED9FEw=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorsProcessor$Util$2.clas
+ s
+SHA-256-Digest: 6JxOTy4RtXHhrAAHTkXGcckNs0NanEFjKydUtkBZPIE=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$5
+ .class
+SHA-256-Digest: LUVPkE9I9C4rT3VzKhK+jxIgwn9+uyFnl7rZ2N8a754=
+
+Name: org/eclipse/xtend/lib/Property.class
+SHA-256-Digest: z7Puhs/Dkv92rAUe4yB3UJ1lqKn5cUK8/mbDCY0xbu4=
+
+Name: org/eclipse/xtend/lib/annotations/DelegateProcessor$Util.class
+SHA-256-Digest: XczkDOnlxx1qWLxf/enDq+iozGs7Lk69XfozMUcSf98=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor.class
+SHA-256-Digest: gndHAIV2pKacSMRTYNzd5+u4j29e65q6bk5LBY0KL4M=
+
+Name: org/eclipse/xtend/lib/DataProcessor$Util$1.class
+SHA-256-Digest: OP0AAJ6/xSJl3HWAJI9EvhCLfrfns8polH0SOwnyAO8=
+
+Name: org/eclipse/xtend/lib/annotations/ToStringConfiguration.class
+SHA-256-Digest: lKwxZia/FQt87f6dIbgxAlrfkjbbhvq+v2NcvL1qgFA=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$3
+ .class
+SHA-256-Digest: on8tPl0X8LxsDGrKivw4AsuVE0XRXIQS9WWNe9vq8iI=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 4.class
+SHA-256-Digest: TcssctE8jpkIdiD01JU6/Z3HX7dyG2c9QC56AEYIhKY=
+
+Name: about_org.eclipse.xtend.lib.html
+SHA-256-Digest: ZpUumefly2zeyn/ojHfaT0NtMd61WN3efhmLsT4ycGU=
+
+Name: org/eclipse/xtend/lib/annotations/AccessorType.class
+SHA-256-Digest: dD2M/7SDMhXvQVvPx0PxEEOY2MxDKWB/kgw9cyJ0aeo=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$1
+ 1.class
+SHA-256-Digest: 3wJilRJqYldZMGePB2BUHNx80T+XEmT7fZ68zICiggc=
+
+Name: org/eclipse/xtend/lib/annotations/EqualsHashCodeProcessor$Util$9
+ .class
+SHA-256-Digest: VZcg0hYjM1fAdBbgLVyi216Cvj+rv4AS2Irhc1b1jKM=
+
+Name: org/eclipse/xtend/lib/annotations/ToStringProcessor$Util$1.class
+SHA-256-Digest: 5SCzL7AuLt/C5hjFOILTITY60yeoIRSTP3Jj71WF0Y4=
+

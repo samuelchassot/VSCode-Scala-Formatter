@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: pprint
+Implementation-Version: 0.5.3
+Specification-Vendor: com.lihaoyi
+Specification-Title: pprint
+Implementation-Vendor-Id: com.lihaoyi
+Specification-Version: 0.5.3
+Implementation-URL: https://github.com/lihaoyi/PPrint
+Implementation-Vendor: com.lihaoyi
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: fansi
+Implementation-Version: 0.2.5
+Specification-Vendor: com.lihaoyi
+Specification-Title: fansi
+Implementation-Vendor-Id: com.lihaoyi
+Specification-Version: 0.2.5
+Implementation-URL: https://github.com/lihaoyi/fansi
+Implementation-Vendor: com.lihaoyi
+

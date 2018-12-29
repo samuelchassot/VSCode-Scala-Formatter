@@ -1,21 +1,21 @@
 [0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: ch.chassot#server_2.12;0.1.0-SNAPSHOT[0m
 [0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
 [0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.7[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.7 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.12.7] org.scala-lang#scala-library;2.12.7[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.geirsson#scalafmt-core_2.12;SNAPSHOT {compile=[default(compile)]}[0m
@@ -944,15 +944,15 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 {compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -1052,19 +1052,19 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -1955,14 +1955,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -2027,22 +2027,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [test][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -2971,16 +2971,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -3059,15 +3059,15 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -3076,10 +3076,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -4046,8 +4046,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -4056,8 +4056,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -4150,14 +4150,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [optional][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [runtime-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -4166,10 +4166,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -5136,8 +5136,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -5146,8 +5146,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -5240,14 +5240,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [test-internal][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [test][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -5260,10 +5260,10 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->com.geirsson#scalafmt-core_2.12;SNAPSHOT [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -6306,8 +6306,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.geirsson#scalafmt-core_2.12;SNAPSHOT->com.geirsson#metaconfig-typesafe-config_2.12;0.8.3 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scalameta#scalameta-experimental_2.12;SNAPSHOT [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->default(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
@@ -6320,8 +6320,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
@@ -6442,23 +6442,23 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0->org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [optional][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.eclipse.lsp4j#org.eclipse.lsp4j;0.6.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [plugin][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [pom][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT [scala-tool][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.chassot#server_2.12;0.1.0-SNAPSHOT [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->default][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.7 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.7 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.7[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.7 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-library;2.12.7 [compile->master(compile)][0m
@@ -6555,12 +6555,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang#scala-reflect;2.12.7 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.7 [scala-tool->optional(default)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->master(compile)][0m
@@ -6582,11 +6582,11 @@
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.6 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.7->jline#jline;2.14.6 [optional->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.chassot#server_2.12;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.7 [scala-tool->optional(default)][0m
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
@@ -6598,40 +6598,40 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.geirsson#metaconfig-typesafe-config_2.12;0.8.3!metaconfig-typesafe-config_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#pprint_2.12;0.5.3!pprint_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#paiges-core_2.12;0.2.0!paiges-core_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fansi_2.12;0.2.5!fansi_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#paiges-core_2.12;0.2.0!paiges-core_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.4!sourcecode_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#parsers-experimental_2.12;SNAPSHOT!parsers-experimental_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#trees-experimental_2.12;SNAPSHOT!trees-experimental_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#common-experimental_2.12;SNAPSHOT!common-experimental_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#semanticdb_2.12;4.0.0!semanticdb_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;1.0.0!fastparse_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#scalapb-runtime_2.12;0.8.0-RC1!scalapb-runtime_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#lenses_2.12;0.8.0-RC1!lenses_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#semanticdb_2.12;4.0.0!semanticdb_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.5.1!protobuf-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#lenses_2.12;0.8.0-RC1!lenses_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;1.0.0!fastparse-utils_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0!org.eclipse.lsp4j.generator.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalameta#trees-experimental_2.12;SNAPSHOT!trees-experimental_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.lsp4j#org.eclipse.lsp4j.jsonrpc;0.6.0!org.eclipse.lsp4j.jsonrpc.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.xtend#org.eclipse.xtend.lib;2.16.0!org.eclipse.xtend.lib.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.lsp4j#org.eclipse.lsp4j.generator;0.6.0!org.eclipse.lsp4j.generator.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.7!gson.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.16.0!org.eclipse.xtext.xbase.lib.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0!org.eclipse.xtend.lib.macro.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.guava#guava;21.0!guava.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 5829ms :: artifacts dl 17ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT compile produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT runtime produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT test produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT provided produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT optional produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT compile-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT runtime-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT test-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT plugin produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT pom produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#vs-scala-formatter_2.12;0.1.0-SNAPSHOT scala-tool produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-vs-scala-formatter_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (5829ms resolve - 17ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.xtend#org.eclipse.xtend.lib.macro;2.16.0!org.eclipse.xtend.lib.macro.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 6147ms :: artifacts dl 15ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT compile produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT runtime produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT test produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT provided produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT optional produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT compile-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT runtime-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT test-internal produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT plugin produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT pom produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for ch.chassot#server_2.12;0.1.0-SNAPSHOT scala-tool produced in /home/samuel/EPFL/BA5/Semester-project/vs-scala-formatter/target/scala-2.12/resolution-cache/reports/ch.chassot-server_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (6147ms resolve - 15ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: metaconfig-core
+Implementation-Version: 0.8.3
+Specification-Vendor: com.geirsson
+Specification-Title: metaconfig-core
+Implementation-Vendor-Id: com.geirsson
+Specification-Version: 0.8.3
+Implementation-URL: https://github.com/olafurpg/metaconfig
+Implementation-Vendor: com.geirsson
+

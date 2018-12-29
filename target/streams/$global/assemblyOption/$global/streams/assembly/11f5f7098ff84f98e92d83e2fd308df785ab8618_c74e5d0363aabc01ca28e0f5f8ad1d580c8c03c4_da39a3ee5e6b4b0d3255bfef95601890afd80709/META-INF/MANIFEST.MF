@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: semanticdb
+Implementation-Version: 4.0.0
+Specification-Vendor: org.scalameta
+Specification-Title: semanticdb
+Implementation-Vendor-Id: org.scalameta
+Specification-Version: 4.0.0
+Implementation-Vendor: org.scalameta
+

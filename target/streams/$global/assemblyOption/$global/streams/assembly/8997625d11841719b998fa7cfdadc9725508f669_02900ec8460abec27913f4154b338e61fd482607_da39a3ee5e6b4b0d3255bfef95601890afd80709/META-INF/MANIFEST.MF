@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: fastparse-utils
+Implementation-Version: 1.0.0
+Specification-Vendor: com.lihaoyi
+Specification-Title: fastparse-utils
+Implementation-Vendor-Id: com.lihaoyi
+Specification-Version: 1.0.0
+Implementation-Vendor: com.lihaoyi
+

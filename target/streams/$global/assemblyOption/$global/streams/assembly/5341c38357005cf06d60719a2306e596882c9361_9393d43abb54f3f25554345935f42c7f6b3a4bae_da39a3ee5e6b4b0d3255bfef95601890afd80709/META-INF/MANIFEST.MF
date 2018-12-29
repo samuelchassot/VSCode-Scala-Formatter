@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: core
+Implementation-Version: SNAPSHOT
+Specification-Vendor: com.geirsson
+Specification-Title: core
+Implementation-Vendor-Id: com.geirsson
+Specification-Version: SNAPSHOT
+Implementation-URL: https://github.com/scalameta/scalafmt
+Implementation-Vendor: com.geirsson
+

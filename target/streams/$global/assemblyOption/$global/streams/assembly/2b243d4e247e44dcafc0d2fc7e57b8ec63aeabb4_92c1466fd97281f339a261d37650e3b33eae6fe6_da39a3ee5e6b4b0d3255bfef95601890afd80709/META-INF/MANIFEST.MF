@@ -1,0 +1,323 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.xtend.lib.macro
+Bundle-SymbolicName: org.eclipse.xtend.lib.macro
+Export-Package: org.eclipse.xtend.lib.macro;version="2.16.0";uses:="or
+ g.eclipse.xtend.lib.macro.file,org.eclipse.xtend.lib.macro.services,o
+ rg.eclipse.xtend.lib.macro.declaration",org.eclipse.xtend.lib.macro.d
+ eclaration;version="2.16.0";uses:="org.eclipse.xtend.lib.macro.file, 
+  org.eclipse.xtend2.lib,  org.eclipse.xtend.lib.macro.expression,  or
+ g.eclipse.xtext.xbase.lib",org.eclipse.xtend.lib.macro.expression;ver
+ sion="2.16.0";uses:="org.eclipse.xtend.lib.macro.declaration",org.ecl
+ ipse.xtend.lib.macro.file;version="2.16.0",org.eclipse.xtend.lib.macr
+ o.services;version="2.16.0";uses:="org.eclipse.xtend.lib.macro.declar
+ ation,org.eclipse.xtext.xbase.lib"
+Bundle-Name: Xtend Macro Interfaces
+Bundle-Version: 2.16.0.v20181203-0507
+Require-Bundle: org.eclipse.xtext.xbase.lib;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Eclipse Xtext
+
+Name: org/eclipse/xtend/lib/macro/declaration/ExecutableDeclaration.cl
+ ass
+SHA-256-Digest: Oxi1TDDT3CQb8MkGt6G6Kk7R8xgjudQkpO83XGRxXes=
+
+Name: org/eclipse/xtend/lib/macro/services/AnnotationReferenceBuildCon
+ text.class
+SHA-256-Digest: KPr3it7/9bBOBOmJUa3+sTkrat6qDmA9CllUunBTRSA=
+
+Name: org/eclipse/xtend/lib/macro/AbstractMethodProcessor.class
+SHA-256-Digest: kQWPPKOv1WSXViZaIcRaitCaksUbYbA/B9+c+ab87hc=
+
+Name: org/eclipse/xtend/lib/macro/TransformationParticipant.class
+SHA-256-Digest: 5ANKyjO2wx+nc9PgmNRqJUjUTIM8ARfd/QuKCsrY778=
+
+Name: org/eclipse/xtend/lib/macro/declaration/InterfaceDeclaration.cla
+ ss
+SHA-256-Digest: Oqkf3HB8YpmO9zdWawrLg6MgI2kHhlrUe9Dl3qk6L0I=
+
+Name: org/eclipse/xtend/lib/macro/AbstractEnumerationTypeProcessor.cla
+ ss
+SHA-256-Digest: C8EG3Y+sHr2HrK46MUaov2n6fqxSdtas+kKQOisXFHc=
+
+Name: org/eclipse/xtend/lib/macro/declaration/PrimitiveType.class
+SHA-256-Digest: 9JjIilWw3I9+hjMXDJtFScZPmM0FHJgxIUP+sEn51mQ=
+
+Name: org/eclipse/xtend/lib/macro/RegisterGlobalsContext.class
+SHA-256-Digest: xnA3M6rShqWEWsqHHETOJlAUECbw+S8wPj/BRO7fkIQ=
+
+Name: org/eclipse/xtend/lib/macro/services/TypeLookup.class
+SHA-256-Digest: 7/qGxWrCmIg7Ow2B8/5VN5yL5vD7Db6HYGmNzssvlow=
+
+Name: org/eclipse/xtend/lib/macro/RegisterGlobalsParticipant.class
+SHA-256-Digest: pgH391lxtPA1Zk4+m3dlh4/DfpEVdD7Fx1Xx7nL7x8M=
+
+Name: org/eclipse/xtend/lib/macro/declaration/CompilationUnit.class
+SHA-256-Digest: rpi1nV4lDceflAaIFnhUL1pbeglUh/PYja74jpwapPs=
+
+Name: org/eclipse/xtend/lib/macro/declaration/CompilationStrategy.clas
+ s
+SHA-256-Digest: fK0c0kh9xYy2HUF1ZfK8VuVCxzhtwjHY+8OWKEltMsw=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableFieldDeclaration.
+ class
+SHA-256-Digest: Wlwh6wVQ8cONBKlOPf9AHtVocUHCqcg7k3Zkbk7a3IQ=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableAnnotationTypeEle
+ mentDeclaration.class
+SHA-256-Digest: prcCUhnBbijDaXsLc0keiaAmN3t6iC0tCxdOesFtuQs=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ResolvedMethod.class
+SHA-256-Digest: oa4AvneD2c9eQ3cKW4o/q9vBiE7jBnuQ0ZtHMi67jss=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableInterfaceDeclarat
+ ion.class
+SHA-256-Digest: uddq8bexxpFWT03pG9d/h4Omvs8D38LAEip9iJejtzo=
+
+Name: org/eclipse/xtend/lib/macro/declaration/EnumerationValueDeclarat
+ ion.class
+SHA-256-Digest: 9+8LknoqKuVP7nOCVQkjuRs2K1KBuRrWDV/QDSEOaGY=
+
+Name: org/eclipse/xtend/lib/macro/file/Path$1.class
+SHA-256-Digest: n8X1MnibIpNoo2lKdwJF/fmzgh6T2dpI32NxLbTKmto=
+
+Name: org/eclipse/xtend/lib/macro/declaration/AnnotationTypeDeclaratio
+ n.class
+SHA-256-Digest: mR/M5fcqdFvji/TYQtmPv/uAHyzX1bbIF13yXbwzNXM=
+
+Name: org/eclipse/xtend/lib/macro/declaration/Element.class
+SHA-256-Digest: 7Htv/pTmyxN6qe7l6t2q1DtYbAxZbZHY+ftlXon8Cb0=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ResolvedTypeParameter.cl
+ ass
+SHA-256-Digest: BJb46upls4x/UiSLGPYQuY+CO35RyqLrHWN4BRxzIpA=
+
+Name: org/eclipse/xtend/lib/macro/declaration/NamedElement.class
+SHA-256-Digest: +50NreqvmnJKcGoE4RPySeUSo3audNBS/vdtcj7SAtE=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableEnumerationValueD
+ eclaration.class
+SHA-256-Digest: s6aCslAc9201j0HyKSdpJDX7WZSM/CPn2u+6T9us+K8=
+
+Name: org/eclipse/xtend/lib/macro/declaration/TypeDeclaration.class
+SHA-256-Digest: LbDvGls9wELW2OlB1FQ9MzOpk4+0MKoD1WFwHOHZ22I=
+
+Name: org/eclipse/xtend/lib/macro/declaration/TypeParameterDeclarator.
+ class
+SHA-256-Digest: GcTcpGKaDZzQxRdPxE9dOmQKzEKoxkp9heSR4GyjKaI=
+
+Name: org/eclipse/xtend/lib/macro/declaration/Type.class
+SHA-256-Digest: lpCKeLC4OIxeXfSq8bPyzUhWdAj2/5qZOSA3sJ9FyLc=
+
+Name: org/eclipse/xtend/lib/macro/declaration/TypeParameterDeclaration
+ .class
+SHA-256-Digest: 3MiRSnXG0msq6C5TKB9IxnbZW90nCBGBM7QcCv5TZUc=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableAnnotationTarget.
+ class
+SHA-256-Digest: J6Pbc+OUEIqDliEnlZspxUxad3tT32ugr8itzUlj4RE=
+
+Name: org/eclipse/xtend/lib/macro/TransformationContext.class
+SHA-256-Digest: V0/EQ65FcvIbzUkP6dNF8nE2axldwiAjIVUs/mqxNLc=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ConstructorDeclaration.c
+ lass
+SHA-256-Digest: kSDdxTn3D8PcIWUR0yRCizx9RI64IH8i0ma6lTPjZZA=
+
+Name: org/eclipse/xtend/lib/macro/expression/Expression.class
+SHA-256-Digest: eWeBzSUAqlDJbEhEpaHlHfjALQ8YVOVEcqwKE4Tph9A=
+
+Name: org/eclipse/xtend/lib/macro/AbstractClassProcessor.class
+SHA-256-Digest: kxLZUGHgiGTw7TCqp108B73rv4NmpoULWl1IkvU0woE=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableMemberDeclaration
+ .class
+SHA-256-Digest: AQ5qougZvA4eADOGHLaCGR6orJbRudF5BGkpRmAVJBY=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableElement.class
+SHA-256-Digest: uaukxAvj5vyceRTYGys54JknqSya8Wiu1LcvjJyQdyw=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableConstructorDeclar
+ ation.class
+SHA-256-Digest: DcqxVTrE9Tc88zmt4pE9cSwE9uzTeNTlLhn3oR3CGDI=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ResolvedConstructor.clas
+ s
+SHA-256-Digest: HmZwuCvPvKX881E3YRGfUA11XbCZFbba8xvpZ6H65mA=
+
+Name: org/eclipse/xtend/lib/macro/declaration/Modifier.class
+SHA-256-Digest: /Gf5AJvPANAcHg+6R+FV4k0HxpdYD5xX0PoFIw5h27s=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ClassDeclaration.class
+SHA-256-Digest: z245o+6NTA1OJHtmZCt7/KV0rrIyP8uUfdZhIInloqU=
+
+Name: org/eclipse/xtend/lib/macro/Active.class
+SHA-256-Digest: dAdLEPHz4RaDa7mbfEMalTlGIISo0lxHbnZPVTMFAgE=
+
+Name: org/eclipse/xtend/lib/macro/declaration/Visibility.class
+SHA-256-Digest: PuiWk/rDVz4w0Qx0acPOuWUubMACP4oULAqSN46pcA4=
+
+Name: org/eclipse/xtend/lib/macro/services/Associator.class
+SHA-256-Digest: G57HJ7rzXQEsvGv/B+w5JxtiwRz2pFiKMN6otKW9oVY=
+
+Name: org/eclipse/xtend/lib/macro/file/FileLocations.class
+SHA-256-Digest: eQ53/Gd5Qub3dvtVfhaNRojoJ2MV6b3nvSIxD3bAs90=
+
+Name: org/eclipse/xtend/lib/macro/file/FileSystemSupport.class
+SHA-256-Digest: +V/P0C+eAH6AHyp2K0ygu+YeMqmCzVIJ1l8nBZjgaYk=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableClassDeclaration.
+ class
+SHA-256-Digest: yYgpaNvhiqkXXwoBUC+IXv/CcF5uRlW+APkiPLKwEDk=
+
+Name: org/eclipse/xtend/lib/macro/services/GlobalTypeLookup.class
+SHA-256-Digest: mD6ygAuklr6T9rJAlpiSTXFlPMNEXl9rCeL/JTbY4I8=
+
+Name: org/eclipse/xtend/lib/macro/declaration/Declaration.class
+SHA-256-Digest: qi83YRl8ul6q+M0g9UIiKdlH/wGQ3tsbB28KpON9xkw=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableEnumerationTypeDe
+ claration.class
+SHA-256-Digest: tlX2CxYeb86xQWZRhXzzAc2Mhgsuv7WWl0fmClU3IGQ=
+
+Name: about_org.eclipse.xtend.lib.macro.html
+SHA-256-Digest: EdKCz3NO3xTrnR2JOMEqXvzUKmq+au3EQPUYdhBlZeY=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MethodDeclaration.class
+SHA-256-Digest: GsXa6jY2d4bYrnSdJiL448ZRr2/E5lSuIhZ2Hu13v8k=
+
+Name: org/eclipse/xtend/lib/macro/declaration/CompilationStrategy$Comp
+ ilationContext.class
+SHA-256-Digest: UHFuO4DOVE6us+254xrw4nW3+VULBHVkVR03imrGCTk=
+
+Name: org/eclipse/xtend/lib/macro/services/Problem.class
+SHA-256-Digest: 65HS9QKBRtpqF/QRhCJ0DMBj23N6eSg3aSERT9z+G7I=
+
+Name: org/eclipse/xtend/lib/macro/AbstractAnnotationTypeProcessor.clas
+ s
+SHA-256-Digest: M6n/eG7JX1r9jbf0vvEJ1bpSkaytFa4SzpsHR0HiDbQ=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableParameterDeclarat
+ ion.class
+SHA-256-Digest: Y0CdXB3dGXjvnmlF0gx6dtobN13SrTjh6OPpKcsYSp8=
+
+Name: org/eclipse/xtend/lib/macro/declaration/AnnotationReference.clas
+ s
+SHA-256-Digest: vlpF8IXI7uezSAVjpbxk6S5u3JEJG/HitTDk+XW/kj4=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableTypeParameterDecl
+ arator.class
+SHA-256-Digest: u1puTh9DIJUkgSEj4ByVq+eBJcPIvgexYw5HPjnIbao=
+
+Name: org/eclipse/xtend/lib/macro/declaration/AnnotationTypeElementDec
+ laration.class
+SHA-256-Digest: xwI90AFnImSCtsQnBMzffa/P7Dw7cl/DQ3iTrWQ2vdU=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableExecutableDeclara
+ tion.class
+SHA-256-Digest: +w1fvItIZkf535AYJwTYXazm0Bfrj5VAxXW5vGiT0sQ=
+
+Name: org/eclipse/xtend/lib/macro/declaration/PrimitiveType$Kind.class
+SHA-256-Digest: BKCPKw630I/DQeC0jtAgbxrhPiITOe+80OLrrFJ48ko=
+
+Name: org/eclipse/xtend/lib/macro/services/Problem$Severity.class
+SHA-256-Digest: Sy02UMIVpswpVkNAUIsudwkHu97FqRCh0iBpXdfjc6A=
+
+Name: org/eclipse/xtend/lib/macro/CodeGenerationContext.class
+SHA-256-Digest: 8+IjqCkaCbo/t0hWuB9QAfSfTL9O4S0STt7EOit7JT0=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableDeclaration.class
+SHA-256-Digest: 1riD6g2TjJfFrlLfJa/q/f8urwd+MV/JXRPCAdY9Irg=
+
+Name: org/eclipse/xtend/lib/macro/CodeGenerationParticipant.class
+SHA-256-Digest: 9nHh59Fk46qbTRAR0PUTifjSq7ZEBzCNNz0GXK65R6M=
+
+Name: org/eclipse/xtend/lib/macro/ValidationContext.class
+SHA-256-Digest: xhBmc80GhvVJskD3YVSLDInMayGypBsJv4TWBH8eRf8=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ResolvedExecutable.class
+SHA-256-Digest: nWnOPoanh8+TR0tLGo/aCNhZfFz6yKRyGjJ0w08zq/M=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ResolvedParameter.class
+SHA-256-Digest: I+/efXnaJIoZZ9w1f/Dg/1eBQBt9y0ngADONW7yFAKw=
+
+Name: org/eclipse/xtend/lib/macro/AbstractInterfaceProcessor.class
+SHA-256-Digest: /9qnJ9uDwG238haOn4CreGTqDyDhCwoLUDUCYQN22Do=
+
+Name: org/eclipse/xtend/lib/macro/declaration/FieldDeclaration.class
+SHA-256-Digest: wqvCqd/PiljSPbauYihYF96gWtEs6Dg6pUnymHTQFU4=
+
+Name: org/eclipse/xtend/lib/macro/services/Tracability.class
+SHA-256-Digest: rp4hVGD9Skeq1VoshrUIRiXM1lxM9sxi1b0YbVB4KVk=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableTypeParameterDecl
+ aration.class
+SHA-256-Digest: eN8HVs6acieYB5aNBSIRPnr0SDan6u+6EUO8Uzwaqkk=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MemberDeclaration.class
+SHA-256-Digest: w32nMKLU1VGvWq3r/z73iHCj1Rt1fDy6QmksYBwqfXQ=
+
+Name: org/eclipse/xtend/lib/macro/declaration/TypeReference.class
+SHA-256-Digest: STBDmO4e8Dl+R3qTkNwmJ/CMdskobSOgnup4kFummp0=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableNamedElement.clas
+ s
+SHA-256-Digest: I/TYR9G31EY8A2Qs7IEUcyG4lIhdQQIzkTL71KuUHl0=
+
+Name: org/eclipse/xtend/lib/macro/services/ProblemSupport.class
+SHA-256-Digest: acui2G/6IbhV7oWsIQtWZJYjBqqiWTktgLZPs0ljWeA=
+
+Name: org/eclipse/xtend/lib/macro/declaration/EnumerationTypeDeclarati
+ on.class
+SHA-256-Digest: p0ITVhw2WT3+siH/D9gj+Y1a46sVcDckIcmT94QRFCo=
+
+Name: org/eclipse/xtend/lib/macro/AbstractConstructorProcessor.class
+SHA-256-Digest: MXbMfx1RTaSxttC1yVwIk6qemh2qQObRQNb9lVbcEXg=
+
+Name: org/eclipse/xtend/lib/macro/file/Path.class
+SHA-256-Digest: TrtTGZzA4/0wQq6YR7yUVJyIS+o+dLyNtWskIFIKbiw=
+
+Name: org/eclipse/xtend/lib/macro/services/SourceTypeLookup.class
+SHA-256-Digest: PCLn7Y6nskR4dEzo6arSpaDs59RyL0LGT9dUoliTYmw=
+
+Name: org/eclipse/xtend/lib/macro/services/AnnotationReferenceProvider
+ .class
+SHA-256-Digest: H4HGwtwm/4f+UF6iGRVCe0aMJ6p69U79u5lBsJCSGjo=
+
+Name: org/eclipse/xtend/lib/macro/ValidationParticipant.class
+SHA-256-Digest: VYbsLv28ESC4Pcemwc9hxGkW4/08sjjtiLcAfS1rbxY=
+
+Name: org/eclipse/xtend/lib/macro/services/UpstreamTypeLookup.class
+SHA-256-Digest: EZjVJPWxlk+Tc943DyN/Q1HUuh3i4Ie2lz8QtVSeoTo=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableAnnotationTypeDec
+ laration.class
+SHA-256-Digest: nz7Mx2WeuQ3KZo1RAwHKBBs/mdiyPSd4+Z7xZjVbyhU=
+
+Name: org/eclipse/xtend/lib/macro/declaration/ParameterDeclaration.cla
+ ss
+SHA-256-Digest: tpwOANtZ7+txTYSPFaundxDcLXFSSreZVbZimfTmaKM=
+
+Name: org/eclipse/xtend/lib/macro/file/MutableFileSystemSupport.class
+SHA-256-Digest: 0RW8A0dekOmiDX1eGW6kFefeD2i3QsYfgzV/23GRoOI=
+
+Name: org/eclipse/xtend/lib/macro/AbstractFieldProcessor.class
+SHA-256-Digest: +w/sSwo/ZKpEjJyP8dxZDAO8iTr1SbTmR18NAiMI/lw=
+
+Name: org/eclipse/xtend/lib/macro/declaration/AnnotationTarget.class
+SHA-256-Digest: LoLCrmbm0Fc34gSSNSBi9D2hU87UFzKTlLwQicJO208=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableMethodDeclaration
+ .class
+SHA-256-Digest: JYk9M2GMoR0DH10epqj6NRPzqwn9vKyNQ27fGk+FQt4=
+
+Name: org/eclipse/xtend/lib/macro/declaration/VoidType.class
+SHA-256-Digest: 1yD5MEd1NcQZLtVYgew3yaREZY7CYBZ/wHq6GYHV9jA=
+
+Name: org/eclipse/xtend/lib/macro/declaration/MutableTypeDeclaration.c
+ lass
+SHA-256-Digest: 8jbC3RsmKCUiW7nHSiP2R3i2rvh84b807F7zRgbTOKI=
+
+Name: org/eclipse/xtend/lib/macro/services/TypeReferenceProvider.class
+SHA-256-Digest: E4BlYdJuBknMe1aTzC1Vz796Qx2iWZpRkyg3o60t1Eg=
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: lenses
+Implementation-Version: 0.8.0-RC1
+Specification-Vendor: com.thesamet.scalapb
+Specification-Title: lenses
+Implementation-Vendor-Id: com.thesamet.scalapb
+Specification-Version: 0.8.0-RC1
+Implementation-Vendor: com.thesamet.scalapb
+

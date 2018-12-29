@@ -1,0 +1,88 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: FnCkRRw7Nc6iYQmuNX+wso6v4iX17
+ e+KYzXtCE6ZDHo=
+SHA-256-Digest-Manifest: E1vDmN64zLf5AR7pfp3hqp+G3LXNyR3mjmsQkx3WqVs=
+Created-By: 1.8.0_192 (Oracle Corporation)
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$16.class
+SHA-256-Digest: 5Ncs67FKcHBCl+dJrf1xGYmsPCF2y/hHq2AT7LxUo1k=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$8.class
+SHA-256-Digest: XdwtTauGGcvrpZHhCqxAUM36BkMWle6tsyTFYkuXTh0=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImpl.class
+SHA-256-Digest: t4jfvdk1vI8Mkm6+6WLxnd5rFeGSHOu/M0qtdVuc6M4=
+
+Name: org/eclipse/lsp4j/generator/JsonRpcData.class
+SHA-256-Digest: MMbC7uUxpZK1j035fGdbRMTKn/n9KZHBsPCAaTghm2E=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$11.class
+SHA-256-Digest: ws/IC7QFjWFtjOMIuQj/DNWHnvpj6a5BRZGU4LR1wjY=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$3.class
+SHA-256-Digest: kAtLyE5pln4hP5yGJRVbeVYYOrQnj0bZ4CnCywJUJxM=
+
+Name: org/eclipse/lsp4j/generator/JsonRpcDataTransformationContext.cla
+ ss
+SHA-256-Digest: GMOt8QUSVHys5DR+OkNJFkYYbOsJ88rzTIWhXsJ/izc=
+
+Name: org/eclipse/lsp4j/generator/JsonRpcDataProcessor.class
+SHA-256-Digest: W/xej5k/Ss8HVFcf7SGU5fzkpLRiI1PqSzmzHmStaaI=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$6.class
+SHA-256-Digest: icREc6wL51JzyRgbe/GyIIZ1N/FMzYY99gAl/2H6rxo=
+
+Name: org/eclipse/lsp4j/generator/JsonRpcDataProcessor$1.class
+SHA-256-Digest: X9rheQAfPVLD5qEz99JpUC+F2v08tslmWU8Wth2pR+w=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$14.class
+SHA-256-Digest: Ssls5G01EACA130gDGEqCaKW5aYYw3rKvuqauS94Y9Q=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$1.class
+SHA-256-Digest: vdi6NIu6yuaqY7RLmu8etvrE4YvzFw4ouYWP2qymJO4=
+
+Name: about.html
+SHA-256-Digest: cbTCXozC/yaE+sFcgSLnpRV2gcDXSdmJ3/uGfK4qEnY=
+
+Name: org/eclipse/lsp4j/generator/JsonType.class
+SHA-256-Digest: 3wEU9tFGJaOD4QBCvQ1BnOuSn6FhHTO5AUT+brdYvyU=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$10.class
+SHA-256-Digest: oCjIvGRpx/DGSPau1URuluaWXyCOHDmx0GQxtczfPzk=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$9.class
+SHA-256-Digest: wT59WtPVHb92HDbbU88M+bKTYMA/eWP4XuI05ciXm/U=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$17.class
+SHA-256-Digest: KhIaqZX4eB9DoOK7mpwWEzMR/Z5ant8SipO+R/Y9yNg=
+
+Name: org/eclipse/lsp4j/generator/LanguageServerAPI.class
+SHA-256-Digest: xAXxQ8XSOzzKft8WZSXbA4hmiwRyihRdrYnH4w3FIYY=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$2.class
+SHA-256-Digest: AQ6gATmurMlvcZHVYn3XCguMRelAvs9GjY5sCwOQm1Y=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$15.class
+SHA-256-Digest: WRm/iDZWdpcxVhP2aWJGgZRYsxc9g4H8z1BFCc7BatQ=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$4.class
+SHA-256-Digest: sEXiYU4CJVhw0Xi9wIn58Cg2IvqsbAg8VpthGjy5w48=
+
+Name: org/eclipse/lsp4j/generator/EitherTypeArgument.class
+SHA-256-Digest: eBh41oNX3SljLwnttgJuKaSh8BaYcSZHQWWDCeoxnJ8=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$7.class
+SHA-256-Digest: J+Z5x7Z92OgOzt6tip78Vn1/KFCfz+kMHwMljAXOGVs=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$12.class
+SHA-256-Digest: MwW2BqyKF/lQx+0qkYYwqPigOQt+3Rw6kKVErVZsUts=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$13.class
+SHA-256-Digest: QOQWk3WH+pWE/Zol/0UgnT/HL/bXYcJRXO+qSsDNMDk=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor$5.class
+SHA-256-Digest: PI6JK+SePKM9uBYMPeEySLqO9J+vyPWEUpcAyOxunhw=
+
+Name: org/eclipse/lsp4j/generator/TypeAdapterImplProcessor.class
+SHA-256-Digest: u+I9UmSUUXiw6GIOfFtzrO5k9pEqK+iKZw8p45z7cCg=
+
