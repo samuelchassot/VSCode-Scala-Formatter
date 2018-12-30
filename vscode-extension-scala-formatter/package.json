@@ -1,7 +1,7 @@
 {
 	"name": "scala-formatter",
 	"displayName": "Scala code formatter",
-	"description": "A language server that formats Scala source code using Scalafmt",
+	"description": "A language server that formats Scala source code including Dotty Enum syntax using Scalafmt.",
 	"author": "Samuel Chassot",
 	"publisher": "samuelchassot",
 	"version": "1.0.0",
