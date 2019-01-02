@@ -7,8 +7,7 @@ It can format code written for Dotty compiler including newly added *Enum*.
 ```shell
 assembly
 ```
-2. Once the *.jar* file is generated copy it in the folder *vscode-scala-formatter/vscode-extension-scala-formatter/server/
-*
+2. Once the *.jar* file is generated copy it in the folder *vscode-scala-formatter/vscode-extension-scala-formatter/server/*
 3. If you change the filename be sure to replace it in the code in *extension.ts*
 4. Then run the following command in the folder *vscode-scala-formatter/* : 
 ```shell
