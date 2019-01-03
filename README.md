@@ -12,17 +12,16 @@ cd scalafmt && sbt publishLocal && cd ..
 ```
 
 ## Build the project (go to installation section if you downloaded the .vsix)
-1. Open *LanguageServer* in sbt and run the following command :
+1. Run the following command at the root of the project :
 ```shell
-assembly
+cd languageServer && sbt 'set assemblyOutputPath in assembly := new File("../vscode-extension-scala-formatter/server/languageServer-assembly.jar")' assembly && cd ..
 ```
-2. Once the *.jar* file is generated copy it in the folder *vscode-scala-formatter/vscode-extension-scala-formatter/server/*
-3. If you change the filename be sure to replace it in the code in *extension.ts*
-4. Then run the following command in the folder *vscode-scala-formatter/* : 
+2. If you change the filename be sure to change it in the code in *vscode-extension-scala-formatter/client/src/extension.ts*
+3. Then run the following command :
 ```shell
-vsce package
+cd vscode-extension-scala-formatter && vsce package
 ```
-   it will generate the .vsix file in the same folder then see next section to install it.
+   it will generate the .vsix file in *vscode-extension-scala-formatter/* then see next section to install it.
 
 ## Installation
 Download the .vsix file and run the following command :
