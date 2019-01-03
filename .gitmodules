@@ -1,8 +1,8 @@
-[submodule "trees"]
-	path = trees
-	url = git@github.com:samuelchassot/trees.git
-	branch = vscode-ext
 [submodule "scalafmt"]
 	path = scalafmt
 	url = git@github.com:samuelchassot/scalafmt.git
+	branch = vscode-ext
+[submodule "trees"]
+	path = trees
+	url = git@github.com:samuelchassot/trees.git
 	branch = vscode-ext
