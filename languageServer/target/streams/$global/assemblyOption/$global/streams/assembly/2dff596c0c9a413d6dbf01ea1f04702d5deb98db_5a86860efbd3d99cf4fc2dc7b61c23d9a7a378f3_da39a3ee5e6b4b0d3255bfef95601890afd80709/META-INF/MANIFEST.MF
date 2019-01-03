@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: paiges-core
-Implementation-Version: 0.2.0
-Specification-Vendor: org.typelevel
-Specification-Title: paiges-core
-Implementation-Vendor-Id: org.typelevel
-Specification-Version: 0.2.0
-Implementation-Vendor: org.typelevel
-

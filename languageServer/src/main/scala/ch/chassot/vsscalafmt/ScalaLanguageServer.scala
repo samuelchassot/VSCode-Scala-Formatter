@@ -39,10 +39,12 @@ class ScalaLanguageServer extends LanguageServer {
   override def getWorkspaceService: WorkspaceService =
     new WorkspaceService {
       override def didChangeConfiguration(
-          params: DidChangeConfigurationParams): Unit = {}
+          params: DidChangeConfigurationParams
+      ): Unit = {}
 
       override def didChangeWatchedFiles(
-          params: DidChangeWatchedFilesParams): Unit = {}
+          params: DidChangeWatchedFilesParams
+      ): Unit = {}
     }
 
 }

@@ -5,4 +5,7 @@
 *.vsix
 **/target/*
 .vscodeignore
-
+/out/
+**/target/
+**/project/boot/
+*.iml
