@@ -33,7 +33,7 @@ export function activate(context: ExtensionContext) {
 				let args = [
 					'-classpath',
 					context.asAbsolutePath(
-						path.join('server', 'languageServer-assembly-0.1.0-SNAPSHOT.jar')
+						path.join('server', 'languageServer-assembly.jar')
 					),
 					'ch.chassot.vsscalafmt.Main',
 					server.address().port.toString()
