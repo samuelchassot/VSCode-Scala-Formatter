@@ -50,17 +50,17 @@ class MyTextDocumentService extends TextDocumentService {
         val l = new util.ArrayList[TextEdit]()
 
         CodeFormatter.formatDottyCode(code) match {
-          case Some(editNewlyFormatted) =>
+          case Some(newlyFormattedCode) =>
             val range =
               new Range(new Position(0, 0), new Position(nLines, lastLineSize))
-            val editRemove = new TextEdit(range, "")
-
-            //first remove everything in the document
-            l.add(editRemove)
-
-            //then add the newly formatted code
+            val editNewlyFormatted = new TextEdit(range, newlyFormattedCode)
             l.add(editNewlyFormatted)
 
+            // //first remove everything in the document
+            // l.add(editRemove)
+
+            // //then add the newly formatted code
+            // l.add(editNewlyFormatted)
             l
           case None => l
         }

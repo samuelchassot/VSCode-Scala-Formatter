@@ -8,7 +8,7 @@ import org.scalafmt.config.ScalafmtConfig
 import scala.meta.dialects.Dotty
 
 object CodeFormatter {
-  def formatDottyCode(code: String): Option[TextEdit] = {
+  def formatDottyCode(code: String): Option[String] = {
     val config: ScalafmtConfig = ScalafmtConfig.default.withDialect(Dotty)
     val formatted: Formatted = scalafmt.Scalafmt.format(
       code = code,
@@ -17,8 +17,7 @@ object CodeFormatter {
 
     formatted match {
       case Formatted.Success(formattedCode) =>
-        val range: Range = new Range(new Position(0, 0), new Position(0, 0))
-        Some(new TextEdit(range, formattedCode))
+        Some(formattedCode)
       case Formatted.Failure(e) => None
     }
   }
