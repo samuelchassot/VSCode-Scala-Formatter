@@ -45,4 +45,4 @@ Run the following command in the folder where there is the .vsix file:
 ```shell
 code --install-extension scala-formatter-x.x.x.vsix
 ``` 
-by replacing the ```x.x.x``` by the version of the *.vsix* file.
+replacing the ```x.x.x``` by the version of the *.vsix* file.
