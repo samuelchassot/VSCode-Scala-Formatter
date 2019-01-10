@@ -35,9 +35,14 @@ cd languageServer && sbt 'set assemblyOutputPath in assembly := new File("../vsc
 cd vscode-extension-scala-formatter && vsce package
 ```
    it will generate the .vsix file in *vscode-extension-scala-formatter/* .See next section for installation instructions.
+   If the ```vsce``` command is not available, install it using the following command:
+```shell
+npm install -g vsce
+```
 
 ### Installation
 Run the following command in the folder where there is the .vsix file:
 ```shell
 code --install-extension scala-formatter-x.x.x.vsix
 ``` 
+by replacing the ```x.x.x``` by the version of the *.vsix* file.
