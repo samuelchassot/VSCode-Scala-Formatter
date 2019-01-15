@@ -46,3 +46,9 @@ Run the following command in the folder where there is the .vsix file:
 code --install-extension scala-formatter-x.x.x.vsix
 ``` 
 replacing the ```x.x.x``` by the version of the *.vsix* file.
+
+You can also install it from Visual Studio Code:
+1. Go in the extensions tab
+2. Click on the 3 dots
+3. *Install from vsix*
+4. Select the *.vsix* you downloaded or built
