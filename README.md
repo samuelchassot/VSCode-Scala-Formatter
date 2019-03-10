@@ -2,6 +2,9 @@
 This is a Visual Studio Code extension with a language server that formats Scala source code. It uses *Scalafmt* (https://github.com/scalameta/scalafmt.git) to format the code directly from the editor.
 It can format code written for Dotty compiler including newly added *Enum*.
 
+
+This projet was part of the semester project done during Computer science Bachelor at EPFL by Samuel Chassot.
+
 ## Build and install the project
 This repository uses some submodules so clone it using the *--recursive* option or update them afterwards:
 ```shell
