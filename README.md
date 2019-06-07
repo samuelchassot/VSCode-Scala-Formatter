@@ -3,7 +3,7 @@ This is a Visual Studio Code extension with a language server that formats Scala
 It can format code written for Dotty compiler including newly added *Enum*.
 
 
-This projet was part of the semester project done during Computer science Bachelor at EPFL by Samuel Chassot.
+This projet was part of the semester project done during Computer science Bachelor by Samuel Chassot at EPFL.
 
 ## Build and install the project
 This repository uses some submodules so clone it using the *--recursive* option or update them afterwards:
