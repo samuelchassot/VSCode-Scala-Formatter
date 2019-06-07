@@ -10,3 +10,4 @@
 **/project/boot/
 *.iml
 *.jar
+.DS_Store
